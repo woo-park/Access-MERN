@@ -12,7 +12,7 @@ const Artwork = new mongoose.Schema({
 
  // date: { type: Date, default: Date.now },
 
-const artworks = {sjkljdfiso
+const artworks = {
   Artwork: mongoose.model('Artwork', Artwork),
 };
 

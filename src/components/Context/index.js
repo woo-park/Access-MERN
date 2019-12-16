@@ -24,7 +24,7 @@ export const StateProvider = (props) => {
           //     }
           //   })
           // }
-          fetch(`http://wooyongpark.com/api/altpost`)
+          fetch(`https://wooyongpark.com/api/altpost`)
             .then( (response) =>{
               console.log('Where client state, and db just polled');
               let result;
