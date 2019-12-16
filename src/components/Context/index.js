@@ -24,7 +24,7 @@ export const StateProvider = (props) => {
           //     }
           //   })
           // }
-          fetch(`http://localhost:5555/api/altpost`)
+          fetch(`http://localhost:8080/api/altpost`)
             .then( (response) =>{
               console.log('Where client state, and db just polled');
               let result;
