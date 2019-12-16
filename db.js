@@ -12,15 +12,18 @@ const Artwork = new mongoose.Schema({
 
  // date: { type: Date, default: Date.now },
 
-const artworks = {
+const artworks = {sjkljdfiso
   Artwork: mongoose.model('Artwork', Artwork),
 };
 
 
 
-mongoose.connect('mongodb://localhost:27017/access', { useNewUrlParser: true, useUnifiedTopology: true }).then((data)=>{
+mongoose.connect('mongodb://localhost:8080/access', { useNewUrlParser: true, useUnifiedTopology: true }).then((data)=>{
   console.log('mongodb connected');
-  console.log(data.models);
+  console.log('mongodb running on port 8080')
+
+
+  console.jjlog(data.models);
   // console.log(data.modelSchemas.Artwork);
   // console.log(data)
 })
