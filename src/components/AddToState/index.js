@@ -45,7 +45,7 @@ const AddToState = () => {
                     id: last.id,
                     primaryImage: last.primaryImage
                   }
-    axios.post('http://localhost:8080/api/altpost', altpost)
+    axios.post('http://localhost:5555/api/altpost', altpost)
       .then(res => console.log(res.data))
       .then(success => {setState( (previousState) => [
         ...previousState, last

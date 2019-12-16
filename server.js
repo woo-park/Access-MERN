@@ -106,7 +106,8 @@ app.get('/api/altpost', (req, res) => {
 // context -> 8080 -> get
 
 
+//changed to 5555
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5555;
 app.listen(PORT);
 console.log(`started server on port ${PORT}`);
