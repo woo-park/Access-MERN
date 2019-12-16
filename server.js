@@ -101,6 +101,9 @@ app.get('/api/altpost', (req, res) => {
 
 
 
+//db.js -> 8080  -> mongodb
+//addtostate -> 8080 -> post
+// context -> 8080 -> get
 
 
 
