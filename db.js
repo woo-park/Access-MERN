@@ -18,12 +18,10 @@ const artworks = {sjkljdfiso
 
 
 
-mongoose.connect('mongodb://localhost:8080/access', { useNewUrlParser: true, useUnifiedTopology: true }).then((data)=>{
+mongoose.connect('mongodb://localhost/access', { useNewUrlParser: true, useUnifiedTopology: true }).then((data)=>{
   console.log('mongodb connected');
-  console.log('mongodb running on port 8080')
-
-
-  console.jjlog(data.models);
+  console.log('mongodb running on mongodb://localhost/access')
+  console.log(data.models);
   // console.log(data.modelSchemas.Artwork);
   // console.log(data)
 })
